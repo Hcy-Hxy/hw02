@@ -14,10 +14,14 @@
 - 与GPT系列类似，但在模型规模和训练方法上进行了优化
 - 支持上下文窗口长度为2048
 
+![LLaMA模型架构](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=LLaMA%20language%20model%20architecture%20diagram%2C%20showing%20transformer%20layers%2C%20self-attention%20mechanisms%2C%20and%20feed-forward%20networks%2C%20professional%20technical%20diagram&image_size=square_hd)
+
 ### 2.2 训练数据
 - 使用了多种来源的高质量文本数据，包括CommonCrawl、C4、GitHub、Wikipedia等
 - 对数据进行了严格的过滤和去重处理
 - 训练数据总量约为1.4T tokens
+
+![LLaMA训练数据分布](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=LLaMA%20training%20data%20distribution%20chart%2C%20showing%20different%20data%20sources%20like%20CommonCrawl%2C%20C4%2C%20GitHub%2C%20Wikipedia%2C%20pie%20chart%2C%20professional%20data%20visualization&image_size=square_hd)
 
 ### 2.3 训练策略
 - 采用混合精度训练（FP16）
@@ -30,6 +34,8 @@
 - 在MMLU、HellaSwag、GSM8K等多个基准测试上取得了优异成绩
 - 7B参数的LLaMA模型在某些任务上超过了175B参数的GPT-3
 - 65B参数的LLaMA模型与闭源模型如PaLM、GPT-4等相比具有竞争力
+
+![LLaMA基准测试结果](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=LLaMA%20benchmark%20test%20results%20comparison%20chart%2C%20showing%20performance%20of%20different%20LLaMA%20models%20(7B%2C%2013B%2C%2033B%2C%2065B)%20compared%20to%20other%20models%20like%20GPT-3%2C%20PaLM%2C%20professional%20bar%20chart&image_size=square_hd)
 
 ### 3.2 下游任务适应
 - 在微调后，LLaMA模型在特定任务上的表现进一步提升
